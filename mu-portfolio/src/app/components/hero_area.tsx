@@ -24,16 +24,17 @@ export default function HeroArea() {
                                     </svg>
                                 </button>
                             </div> */}
-                            <div className="hidden  justify-center lg:flex lg:gap-x-12">
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Product</a>
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Features</a>
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Marketplace</a>
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Company</a>
+                            <div className="hidden  justify-center lg:flex lg:gap-x-12 mx-10">
+                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">About me</a>
+                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Projects</a>
+                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Contacts</a>
+
                             </div>
 
                         </nav>
                         {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
-                        <div className="lg:hidden" role="dialog" aria-modal="true">
+                        {/* add here lg:hidden */}
+                        <div className="hidden" role="dialog" aria-modal="true">
                             {/* <!-- Background backdrop, show/hide based on slide-over state. --> */}
                             <div className="fixed inset-0 z-50"></div>
                             <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
@@ -52,10 +53,10 @@ export default function HeroArea() {
                                 <div className="mt-6 flow-root">
                                     <div className="-my-6 divide-y divide-gray-500/25">
                                         <div className="space-y-2 py-6">
-                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Product</a>
-                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Features</a>
-                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Marketplace</a>
-                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Company</a>
+                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">About me</a>
+                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Projects</a>
+                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Contacts</a>
+
                                         </div>
                                         <div className="py-6">
                                             <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800">Log in</a>
@@ -74,19 +75,16 @@ export default function HeroArea() {
                         <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
 
                             <div className="text-center">
-                                <h1 className="text-4xl font-bold tracking-wider text-white sm:text-6xl">I'm Sabina. <br />I'm a Front End Developer. </h1>
-                                <p className="mt-6 text-lg leading-8 text-gray-100">Turning 'Can I do this?' into 'Look what I did!'</p>
-                                <div className="mt-10 flex items-center justify-center gap-x-6 opacity-80 hover:opacity-90">
+                                <h1 className="text-4xl font-bold tracking-wider text-white sm:text-6xl">I&apos;m Sabina. <br />I&apos;m a Front End Developer. </h1>
+                                <p className="mt-6 text-lg leading-8 text-gray-100 tracking-wider">Turning &quot;Can I do this?&quot; into &quot;Look what I did!&quot;</p>
+                                <div className="mt-10 flex items-center justify-center gap-x-6 opacity-70 hover:opacity-90">
                                     {/* <button className="bg-transparent border-2 border-l-pink-600 border-t-rose-400 border-b-purple-500 border-r-teal-400 text-white font-semibold rounded-md p-3">Check out my resume
                                     </button> */}
-                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-pink-200 rounded-lg group bg-gradient-to-br from-purple-700 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-pink-200 rounded-lg group bg-gradient-to-br from-purple-900 to-rose-600 hover:text-white dark:text-white focus:ring-2 focus:outline-none focus:ring-pink-600 dark:focus:ring-purple-800">
+                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 tracking-wide">
                                             Download my resume
                                         </span>
                                     </button>
-
-
-                                    <a href="#" className="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
                                 </div>
                             </div>
                         </div>
