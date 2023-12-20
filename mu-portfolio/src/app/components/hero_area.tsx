@@ -25,9 +25,9 @@ export default function HeroArea() {
                                 </button>
                             </div> */}
                             <div className="hidden  justify-center lg:flex lg:gap-x-12 mx-10">
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">About me</a>
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Projects</a>
-                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white">Contacts</a>
+                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white hover:text-teal-300 active:text-purple-400 focus:text-pink-300">About me</a>
+                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white hover:text-teal-300 active:text-purple-400 focus:text-pink-300">Projects</a>
+                                <a href="#" className="text-sm font-light leading-6 tracking-wider text-white hover:text-teal-300 active:text-purple-400 focus:text-pink-300">Contacts</a>
 
                             </div>
 
@@ -80,7 +80,7 @@ export default function HeroArea() {
                                 <div className="mt-10 flex items-center justify-center gap-x-6 opacity-70 hover:opacity-90">
                                     {/* <button className="bg-transparent border-2 border-l-pink-600 border-t-rose-400 border-b-purple-500 border-r-teal-400 text-white font-semibold rounded-md p-3">Check out my resume
                                     </button> */}
-                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-pink-200 rounded-lg group bg-gradient-to-br from-purple-900 to-rose-600 hover:text-white dark:text-white focus:ring-2 focus:outline-none focus:ring-pink-600 dark:focus:ring-purple-800">
+                                    <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-pink-200 rounded-lg group bg-gradient-to-br from-teal-400 to-pink-500  hover:text-white dark:text-white focus:ring-2 focus:outline-none hover:from-teal-600 hover:to-rose-600 focus:ring-pink-600 dark:focus:ring-purple-800">
                                         <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 tracking-wide">
                                             Download my resume
                                         </span>
