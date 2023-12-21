@@ -15,7 +15,7 @@ import git from "../../../public/Git-Icon-1788C.png"
 export default function MyTechStack() {
     return (
         <>
-            <div className="bg-white py-24 sm:py-32">
+            <div className="bg-white pb-24 sm:pb-32">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="grid grid-cols-1 items-center  gap-y-16 lg:grid-cols-2">
                         <div className="mx-auto w-full max-w-xl lg:mx-0">
@@ -27,19 +27,19 @@ export default function MyTechStack() {
                             </div> */}
                         </div>
                         <div className="mx-auto grid w-full max-w-xl grid-cols-4 items-center justify-between gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none ">
-                            <Image className="max-h-12 w-full object-contain object-right" src={html} alt="html logo" width="136" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={css} alt="css logo" width="136" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={JS} alt="JS logo" width="136" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={TS} alt="TS logo" width="136" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={reactjs} alt="react logo" width="145" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={tailwind} alt="tailwind logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={html} alt="html logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={css} alt="css logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={JS} alt="JS logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={TS} alt="TS logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={reactjs} alt="react logo" width="145" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={tailwind} alt="tailwind logo" width="136" height="48" />
 
-                            <Image className="max-h-12 w-full object-contain object-right" src={bootstrap} alt="bootstrap logo" width="110" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={wordpress} alt="wordpress logo" width="110" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={appsmith} alt="appsmith logo" width="150" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={mysql} alt="mysql logo" width="136" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={git} alt="git logo" width="150" height="48" />
-                            <Image className="max-h-12 w-full object-contain object-right" src={Ph} alt="photoshop logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={bootstrap} alt="bootstrap logo" width="110" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={wordpress} alt="wordpress logo" width="110" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={appsmith} alt="appsmith logo" width="150" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={mysql} alt="mysql logo" width="136" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={git} alt="git logo" width="150" height="48" />
+                            <Image className="max-h-12 w-full object-contain object-center" src={Ph} alt="photoshop logo" width="136" height="48" />
                         </div>
                     </div>
                 </div>
