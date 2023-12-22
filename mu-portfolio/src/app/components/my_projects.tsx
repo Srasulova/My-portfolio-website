@@ -11,11 +11,11 @@ import nourish from "../../../public/nourish1.png"
 export default function MyProjects() {
     return (
         <>
-            <div className="bg-white py-24 sm:py-32">
+            <div className="bg-white py-24 sm:py-28">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto  text-center">
-                        <h2 className="text-3xl font-bold tracking-tight text-rose-500 sm:text-4xl">My Projects</h2>
-                        <p className="mt-6 text-lg leading-8 text-gray-600">Check out the code behind my projects on GitHub and feel free to send a friend request.</p>
+                        <h2 className="text-3xl font-bold tracking-tight text-rose-500 sm:text-4xl">&#60;My Projects &#47;&#62;</h2>
+                        <p className="mt-6 text-lg leading-8 text-gray-600">I have more projects on GitHub, check them out and feel free to send a friend request.</p>
                     </div>
                     <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         <article className="flex flex-col items-start justify-between calculator">
@@ -33,7 +33,7 @@ export default function MyProjects() {
                                         </i> Check out the code in Github</a>
                                 </div>
                                 <div className="group relative">
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-teal-600">
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-rose-500">
                                         <a href="#">
                                             <span className="absolute inset-0"></span>
                                             Basic calculator
@@ -61,7 +61,7 @@ export default function MyProjects() {
                                         </i> Check out the code in Github</a>
                                 </div>
                                 <div className="group relative">
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-teal-600">
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-rose-500">
                                         <a href="#">
                                             <span className="absolute inset-0"></span>
                                             Budgeting App
@@ -90,7 +90,7 @@ export default function MyProjects() {
                                         </i> Check out the code in Github</a>
                                 </div>
                                 <div className="group relative">
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-teal-600">
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-rose-500">
                                         <a href="#">
                                             <span className="absolute inset-0"></span>
                                             Palindrome checker
@@ -119,7 +119,7 @@ export default function MyProjects() {
                                         </i> Check out the code in Github</a>
                                 </div>
                                 <div className="group relative">
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-teal-600">
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-rose-500">
                                         <a href="#">
                                             <span className="absolute inset-0"></span>
                                             ToDo App
@@ -147,7 +147,7 @@ export default function MyProjects() {
                                         </i> Check out the code in Github</a>
                                 </div>
                                 <div className="group relative">
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-teal-600">
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-rose-500">
                                         <a href="#">
                                             <span className="absolute inset-0"></span>
                                             Single page Bakery website
@@ -176,7 +176,7 @@ export default function MyProjects() {
                                         </i> Check out the code in Github</a>
                                 </div>
                                 <div className="group relative">
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-teal-600">
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-rose-500">
                                         <a href="#">
                                             <span className="absolute inset-0"></span>
                                             Website for a not-for-profit program - WIP

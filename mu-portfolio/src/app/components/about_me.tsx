@@ -12,7 +12,7 @@ export default function AboutMe() {
                         </div>
                         <div className="w-full lg:max-w-xl lg:flex-auto">
 
-                            <h2 className="text-3xl mb-12 font-bold tracking-wide text-rose-500 sm:text-4xl">About me</h2>
+                            <h2 className="text-3xl mb-12 font-bold tracking-wide text-rose-500 sm:text-4xl">&#60;About me &#47;&#62; </h2>
                             <p className="mb-4 text-zinc-700">Originally from Azerbaijan, I&apos;m Sabina, currently based in the US, enjoying life with my family, including a sweet baby girl. </p>
 
                             <p className="mb-4  text-zinc-700">For more than 15 years, I worked in customer service, but at some point the thrill started to fade. Seeking a new chapter, I took a leap into the unknown and found my passion in web development. A fresh face in the web development world, I&apos;m eagerly embracing the journey, building websites, applications, and anything that involves code. Still got a long road ahead, and I must admit, it&apos;s one exciting learning curve.</p>
