@@ -4,6 +4,14 @@ import logo from "../../../public/portfolio logo.png"
 
 
 export default function HeroArea() {
+
+    // const handleDownload = () => {
+    //     const link = document.createElement('a');
+    //     link.href = '/SabinaRasulovaResume.pdf';
+    //     link.download = 'SabinaRasulovaResume.pdf';
+    //     link.click();
+    // };
+
     return (
         <>
             <div className='w-screen h-4/5 '>
@@ -58,9 +66,6 @@ export default function HeroArea() {
                                             <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Contacts</a>
 
                                         </div>
-                                        <div className="py-6">
-                                            <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800">Log in</a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -72,18 +77,20 @@ export default function HeroArea() {
                         <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl bg-black opacity-30 sm:-top-80 " aria-hidden="true">
                             <div className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style={{ clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)' }}></div>
                         </div>
-                        <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
+                        <div className="mx-auto  py-32 sm:py-48 lg:py-56">
 
                             <div className="text-center">
-                                <h1 className="text-4xl font-bold tracking-wider text-white sm:text-6xl">I&apos;m Sabina. <br />I&apos;m a Front End Developer. </h1>
+                                <h1 className="text-4xl font-bold tracking-wider text-white sm:text-6xl">I&apos;m Sabina. <br />I&apos;m a Front End Developer.</h1>
                                 <p className="mt-6 text-lg leading-8 text-gray-100 tracking-wider">Turning &quot;Can I do this?&quot; into &quot;Look what I did!&quot;</p>
                                 <div className="mt-10 flex items-center justify-center gap-x-6 opacity-70 hover:opacity-90">
                                     {/* <button className="bg-transparent border-2 border-l-pink-600 border-t-rose-400 border-b-purple-500 border-r-teal-400 text-white font-semibold rounded-md p-3">Check out my resume
                                     </button> */}
                                     <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-pink-200 rounded-lg group bg-gradient-to-br from-teal-400 to-pink-500  hover:text-white dark:text-white focus:ring-2 focus:outline-none hover:from-teal-600 hover:to-rose-600 focus:ring-pink-600 dark:focus:ring-purple-800">
-                                        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 tracking-wide">
+                                        <a href="/SabinaRasulovaResume.pdf" download className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 tracking-wide">Download my resume</a>
+                                        {/* <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 tracking-wide">
+
                                             Download my resume
-                                        </span>
+                                        </span> */}
                                     </button>
                                 </div>
                             </div>
