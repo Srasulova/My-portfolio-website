@@ -1,14 +1,16 @@
 import Image from 'next/image'
 import loveYourJob from "../../../public/loveWhatYouDo.jpg"
 
+
+
 export default function AboutMe() {
     return (
         <>
-            <div className="bg-white py-32">
+            <div className="bg-white pt-20 sm:my-32" id="aboutMe">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto flex max-w-2xl flex-col items-center justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row h-auto" >
+                    <div className="mx-auto flex max-w-2xl flex-col items-center justify-center gap-16 lg:mx-0 lg:max-w-none lg:flex-row h-auto" >
                         <div className="w-full lg:max-w-lg lg:flex-auto ">
-                            <Image src={loveYourJob} alt="" className="aspect-[3/4] w-full rounded-md bg-gray-50 object-cover " />
+                            <Image src={loveYourJob} alt="" className="aspect-[3/4] w-auto rounded-md bg-gray-50 object-cover " />
                         </div>
                         <div className="w-full lg:max-w-xl lg:flex-auto">
 
