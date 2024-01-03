@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://Srasulova.github.io/My-portfolio-website",
-
   "scripts": {
     "dev": "next dev",
     "build": "next build",
