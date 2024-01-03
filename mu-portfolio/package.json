@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "next build",
-  "deploy": "gh-pages -d mu-portfolio/out"
+  "deploy": "gh-pages -d mu-portfolio/.next"
   },
   "dependencies": {
     "next": "14.0.4",
