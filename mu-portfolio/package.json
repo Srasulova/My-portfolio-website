@@ -2,15 +2,14 @@
   "name": "mu-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Srasulova.github.io/My-portfolio-website/",
+
 
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "next build",
-  "deploy": "gh-pages -d .next"
+
   },
   "dependencies": {
     "next": "14.0.4",
